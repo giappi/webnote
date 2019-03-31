@@ -1,0 +1,1 @@
+1. A note is able to keep history for each time saved.

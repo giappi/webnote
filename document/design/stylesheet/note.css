@@ -1,0 +1,98 @@
+
+
+body
+{
+    background: #444444;
+}
+
+.note-list
+{
+    outline: 1px dotted #FF0000;
+    width: 902px;
+    margin: auto;
+    background-color: #FFFFFF;
+    /* box-sizing: border-box; */
+}
+
+.note
+{
+    outline: 1px solid #EEEEEE;
+    width: 300px;
+    float: left;
+}
+
+.note-container
+{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #FFBBBB;
+    background-color: #FFEEEE;
+}
+
+.note-title
+{
+    outline: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.note-top
+{
+    outline: none;
+    color: #00FF00;
+    background-color: #FFEEEE;
+}
+
+.note-menu
+{
+    border: 1px solid #EEBBBB;
+    color: #CC8080;
+    background-color: #FFDDDD;
+    padding: 3px;
+    font-size: small;
+    font-weight: bold;
+    float: right;
+}
+
+.note-content
+{
+    padding: 5px;
+    text-align: justify;
+    white-space: pre-wrap;
+    font-family: "Consolas";
+    font-size: smaller;
+    color: #404040;
+}
+
+.note-bottom
+{
+    
+}
+
+.note-tags-list
+{
+    padding: 2px;
+}
+
+.note-tag
+{
+    display: inline-block;
+    border: 1px solid #909090;
+    border-radius: 3px;
+    background-color: #DDDDDD;
+    color: #606060;
+    font-size: small;
+    padding: 3px;
+    margin: 0px;
+}
+
+.clear-float
+{
+    clear: both;
+}
+
+
+pre
+{
+    white-space: pre-wrap;
+}
